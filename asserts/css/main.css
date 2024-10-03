@@ -4,6 +4,7 @@
     height : 120px;
     background-image: linear-gradient(0,#fe6433,#f53e2d);
 }
+
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -740,9 +741,6 @@
     -webkit-line-clamp: 2;
     overflow: hidden;
 }
-.header-cart__item-price-wrap{
-
-}
 .header-cart__item-price{
     font-size: 1.4rem;
     color : var(--main-color);
@@ -811,9 +809,6 @@
     list-style: none;
     margin-left: 12px;
 }
-.category-item{
-
-}
 .category-item--active .category__link{
     color : var(--main-color);
 }
@@ -842,9 +837,6 @@
 }
 
 /* Home sort + filter */
-.grid__column-10{
-
-}
 .home-filter{
     display: flex;
     background-color: rgba(0,0,0,0.04);
@@ -919,9 +911,6 @@
 }
 .select-input:hover .select-input__list{
     display: block;
-}
-.select__item{
-    
 }
 .select-item__link{
     text-decoration: none;
@@ -1016,15 +1005,6 @@
 .product__item-like--liked .product-item-like__icon-fill{
     display: inline-block;
 }
-.fa-regular{
-    
-}
-.fa-heart{
-    
-}
-.fa-solid{
-    
-}
 .product__item-rating{
     font-size: 0.6rem;
     color :  #d5d5d5;
@@ -1038,9 +1018,6 @@
     font-size : 1rem;
     color : var(--text-color);
 }
-.fa-star{
-
-}
 .product-item__origin{
     margin :  3px 10px 0;
     display: flex;
@@ -1049,13 +1026,6 @@
     font-size: 1.3rem;
     font-weight: 300;
 }
-.product-item__branch{
-
-}
-.product-item__origin-name{
-
-}
-
 .product-item__favorite{
     position: absolute;
     top : 10px;
@@ -1131,15 +1101,6 @@
     padding-top : 12px;
     border-top : 4px solid var(--main-color);
 }
-.grid{
-
-}
-.grid__row{
-
-}
-.grid__column-2-4{
-
-}
 .footer__heading{
     font-size: 1.4rem;
     text-transform: uppercase;
@@ -1150,7 +1111,7 @@
     list-style: none;
 }
 .footer-list__item{
-    
+    display: flex;
 }
 .footer-list__link{
     display: block;
@@ -1171,18 +1132,6 @@
 .footer-list__icon{
     font-size: 1.6rem;
     margin-top: -1px;;
-}
-.fa-brands{
-
-}
-.fa-square-facebook{
-
-}
-.fa-square-instagram{
-
-}
-.fa-linkedin{
-
 }
 .footer__download{
     display: flex;
